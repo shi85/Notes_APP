@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    max-height: 100vh;
+    height: 50px;
+    width: 100vw;
+    background-color: chocolate;
+    color: linen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sub-heading {
+    color:darkcyan;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    max-height: 100vh;
+    max-width: 100vw;
+    height: 200px;
+    width: 600px;
+    background-color: lightcoral;
+    
+}
+
+.container-heading {
+    padding: 10px;
+    text-align: center;
+    color: linen;
+    font-size: 20px;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: silver;
+}
+
+.btn {
+    height: 30px;
+    width: 100px;
+    background-color: chocolate;
+    color: linen;
+    display: block;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.your-Notes {
+    margin-top: 50px;
+    color:darkcyan;
+    font-weight: 500;
+}
+
+#addedNotes {
+    margin-top: 50px;
+    max-height: 100vh;
+    max-width: 100vw;
+    height: 200px;
+    width: 400px;
+    background-color: lightcoral;
+}
+
+#yourNote {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: black;
+} 
